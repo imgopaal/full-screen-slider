@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slide {
+  min-width: 100vw;
+  min-height: 100%;
+}
+.image {
+  min-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  cursor: pointer;
+  height: 100%;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+#right {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+#left {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
