@@ -2,10 +2,10 @@ let slider = document.querySelector(".slider");
 let slide = document.querySelector(".slide");
 let images = document.querySelectorAll(".image");
 
-slider.style.overflow = "hidden";
-slider.style.display = "flex";
-slider.style.flexDirection = "row";
-slider.style.maxHeight = "100vw";
+slide.style.overflow = "hidden";
+slide.style.display = "flex";
+slide.style.flexDirection = "row";
+slide.style.maxHeight = "100vw";
 
 let btnRight = document.getElementById("right");
 let btnLeft = document.getElementById("left");
@@ -27,10 +27,3 @@ btnRight.addEventListener("click", () => {
   currentImage < 1 ? "" : (currentImage += 1);
   setAttr();
 });
-
-// slides.style.minHeight = "100vh";
-// slides.style.minWidth = "100vw";
-
-// images.style.objectFit = "cover";
-// images.style.maxHeight = "100%";
-// images.style.maxWidth = "100%";
